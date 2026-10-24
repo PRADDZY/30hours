@@ -1,0 +1,18 @@
+
+
+**The core loop:** you pick a destination, Google Maps gives the ETA, you add your notes, PDF or a link, and an AI writes a script sized to that ETA. That gets turned into audio that ends as you arrive, then a short voice quiz. if no input from user: generate according to preselected interests and current news,
+
+**Stack:** a phone-first web app in Next.js and Tailwind, deployed on Vercel. You'd use the Google Maps Places API for picking the destination and the Routes API for the ETA with traffic. You'd also need an AI model for the script, text-to-speech for the voice (Sarvam Bulbul for Indian voices, or OpenAI), and the browser's built-in speech recognition for the quiz. The browser saves each episode so it plays offline.
+
+**Build order (about 10 to 12 hours solo):**
+1. **Destination and ETA (2 hours):** the trip screen with destination search, the ETA from Google Maps, and a route map.
+2. **Your material (1.5 hours):** pasting text, uploading a PDF, or pasting a link, with the text pulled out.
+3. **Script sized to the ride (2 hours):** the target word count is the ETA in minutes times about 150 words per minute, minus time for the quiz. The script has a hook, segments and a recap.
+4. **Audio that ends on time (2 hours):** the voice is generated, the real audio length is measured, and the script is trimmed or extended so it lands within 5% of the ETA. This is the part to get right.
+5. **Player (1.5 hours):** a progress bar that shows "arriving 9:42", plus chapter markers.
+6. **Voice quiz (1.5 hours):** 2 or 3 questions asked out loud, you answer by voice, and the AI grades you.
+7. **Offline and demo mode (1 hour):** episodes are cached so they play underground. There's also a fake-ETA mode in case the network drops during judging.
+
+**Risks to handle early:** getting the audio length to match is the hardest part, so build it first with fake data. The Maps API key needs billing turned on in Google Cloud, and slow text-to-speech can be fixed by generating the audio segment by segment.
+
+When you're ready, I can find the unique features next or start building.

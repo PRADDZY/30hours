@@ -1,0 +1,22 @@
+node_modules/
+.next/
+.taste-skill/
+.open-next/
+.wrangler/
+out/
+.vercel/
+.env*
+!.env.example
+maps.txt
+**/maps.txt
+*.pem
+*.key
+coverage/
+playwright-report/
+test-results/
+.playwright-cli/
+/frontend/Journey-Based Audio Learning App/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.log

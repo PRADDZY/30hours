@@ -1,0 +1,1011 @@
+{
+  "schemaVersion": 1,
+  "label": "Prepared Pune demo - illustrative 40-minute drive, four-minute sample listen",
+  "trip": {
+    "id": "pune-deccan-hinjawadi",
+    "origin": {
+      "id": "deccan-gymkhana",
+      "label": "Deccan Gymkhana, Pune",
+      "lat": 18.5165436,
+      "lng": 73.8366021
+    },
+    "destination": {
+      "id": "hinjawadi-phase-1",
+      "label": "Hinjawadi Phase 1, Pune",
+      "lat": 18.5879348,
+      "lng": 73.7372748
+    },
+    "mode": "DRIVE",
+    "durationSeconds": 2400,
+    "distanceMeters": 16208,
+    "arrivalTime": 0,
+    "polyline": "io_pBaftaMuBOgAHuBDQ|JUfBYzAe@lBo@vBYhBG~ACrAKvC?LuEWGD{A`F[\\YN]Fg@A{@I}HoAgBIiCI_CI{GOmFSoGOwX]yHOmJKmDIoIdAeDp@m@GUK]]o@}@i@_Ay@pAeCfE[d@_@`@YVeAfBy@hAeAfAcGrDyEpDaMvHqa@|WgCzAyAfAeEpC_G~DWTgDrBqLnI[Pq@f@OF_BjA_BbAoAt@sDrA{H~B{Ab@}E|A_EhA}Ad@SB_GN[Fo@\\[d@GRg@pD]lBOf@U`@_@ZcDhBsDxBeAj@a@PsAx@mC|Bk@p@aAp@yDfDkApA_KjKoDvDm@l@eFzFaGlGaH~HwEpFiBnB}@tAoBhDaAjBiC`G{D`Jk@~@g@n@[lBaAlFcA`IgBvNYxFItBa@`IEjB?`BD|A?`ES~Ak@|CClA[nDWxA{@jDk@`Bq@lCI^E`BBxK?pHInAKf@Sj@M`@y@rBiA~CaAtBcBrCO^Mj@QtAShEMzEERk@fG?r@@RCj@JrAAVv@nKLrDBdBCxEBn@FTLpCVhBL^HHD@\\|@~AvEb@dBPpDKzCK|AGzCDhARjBFnAInBk@xH_@dI@~A`@~EFvCEdBS|CQdDQ|AEPxBb@zBh@tAp@jI`E",
+    "summary": "Deccan Gymkhana to Hinjawadi via Aundh-Wakad Road",
+    "warnings": [
+      "Illustrative 40-minute demo timing; live drive times vary."
+    ],
+    "demo": true
+  },
+  "plans": {
+    "en": {
+      "id": "boredom-en",
+      "version": 1,
+      "title": "Why your brain needs a little boredom",
+      "description": "A four-minute prepared sample about attention and everyday pauses, set on a forty-minute Pune commute.",
+      "language": "en",
+      "targetSeconds": 240,
+      "chunks": [
+        {
+          "id": "opening",
+          "chapter": "01",
+          "title": "The quiet between things",
+          "priority": "essential",
+          "targetSeconds": 20,
+          "concepts": [
+            "attention"
+          ],
+          "prerequisites": [],
+          "script": "On the Pune drive from Deccan Gymkhana to Hinjawadi Phase One, a signal turns red. Before you decide to check your phone, your hand is already reaching for it. That tiny impulse is our subject. Over this forty-minute commute, let us explore what a little space between inputs can do."
+        },
+        {
+          "id": "switching",
+          "chapter": "02",
+          "title": "The cost of switching",
+          "priority": "essential",
+          "targetSeconds": 30,
+          "concepts": [
+            "switching"
+          ],
+          "prerequisites": [
+            "attention"
+          ],
+          "script": "Attention is selective. When you move from a conversation to a notification, then to a short video, your mind has to orient itself again. That does not mean every notification is harmful. It means switching has a cost. Try noticing the difference between choosing a task and having the next task chosen by whatever flashes on a screen."
+        },
+        {
+          "id": "ai",
+          "chapter": "03",
+          "title": "When every answer is instant",
+          "priority": "optional",
+          "targetSeconds": 25,
+          "concepts": [
+            "ai"
+          ],
+          "prerequisites": [
+            "switching"
+          ],
+          "script": "AI makes the pause before an answer feel almost obsolete. A tool can suggest ten ideas in seconds. Useful, certainly. But before asking for ten ideas, try forming one of your own. That little effort gives you something to compare the suggestions against. Speed is a capability. Deciding when to use it is a separate skill."
+        },
+        {
+          "id": "boredom",
+          "chapter": "04",
+          "title": "Boredom is a signal",
+          "priority": "essential",
+          "targetSeconds": 30,
+          "concepts": [
+            "boredom"
+          ],
+          "prerequisites": [
+            "switching"
+          ],
+          "script": "Boredom is not a magic creativity button. It can be uncomfortable, and sometimes it simply means an activity is not engaging you. But that discomfort can reveal a habit: filling every pause before noticing what we need. A quiet minute might lead to an idea, a feeling, or nothing remarkable. You do not have to turn the quiet into another productivity challenge."
+        },
+        {
+          "id": "culture",
+          "chapter": "05",
+          "title": "A pause in the story",
+          "priority": "optional",
+          "targetSeconds": 25,
+          "concepts": [
+            "culture"
+          ],
+          "prerequisites": [
+            "boredom"
+          ],
+          "script": "Think of a film that lets a shot linger after the dialogue ends. Nothing new is being said, yet the scene can deepen because you have time to feel it. Everyday life has similar pauses: waiting for chai, watching a tree through a bus window. You need not squeeze a lesson from them. Sometimes attention begins with allowing a moment to finish."
+        },
+        {
+          "id": "practice",
+          "chapter": "06",
+          "title": "Try one small gap",
+          "priority": "essential",
+          "targetSeconds": 25,
+          "concepts": [
+            "practice"
+          ],
+          "prerequisites": [
+            "boredom"
+          ],
+          "script": "Here is a small experiment for later, when you are safely stopped or sitting as a passenger. Before unlocking your phone, ask: what am I looking for? If you know, go ahead. If you do not, leave one ordinary minute unfilled. Look around, let a thought finish, then choose. The goal is a deliberate choice, not a perfect record of screen time."
+        },
+        {
+          "id": "recap",
+          "chapter": "07",
+          "title": "Take the idea with you",
+          "priority": "recap",
+          "targetSeconds": 25,
+          "concepts": [
+            "recap"
+          ],
+          "prerequisites": [
+            "practice"
+          ],
+          "script": "Let's carry three things to the end of this ride. Switching attention has a cost. Boredom can be a signal worth noticing, without being a guaranteed source of brilliant ideas. And one unfilled minute can help you choose what comes next. In the quick recall that follows, use your own words. Remembering the idea matters more than repeating my sentence."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "What is one cost of repeatedly switching your attention?",
+          "expectedAnswer": "Your mind has to reorient to a new context, using time and attention.",
+          "concepts": [
+            "switching"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "What small experiment can you try before unlocking your phone?",
+          "expectedAnswer": "Ask what you are looking for; if unclear, safely leave one minute unfilled and then choose.",
+          "concepts": [
+            "practice"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "APA: Multitasking and switching costs",
+          "url": "https://www.apa.org/topics/research/multitasking"
+        },
+        {
+          "title": "Westgate & Wilson: Boredom and cognitive engagement",
+          "url": "https://doi.org/10.1037/rev0000097"
+        }
+      ],
+      "createdAt": "2026-10-24T00:00:00.000Z",
+      "demo": true
+    },
+    "hi": {
+      "id": "boredom-hi",
+      "version": 1,
+      "title": "दिमाग को थोड़ी ऊब क्यों चाहिए",
+      "description": "चार मिनट का तैयार sample, Pune की करीब चालीस मिनट की drive पर attention और रोज़मर्रा के विरामों की बात.",
+      "language": "hi",
+      "targetSeconds": 240,
+      "chunks": [
+        {
+          "id": "opening",
+          "chapter": "01",
+          "title": "The quiet between things",
+          "priority": "essential",
+          "targetSeconds": 20,
+          "concepts": [
+            "attention"
+          ],
+          "prerequisites": [],
+          "script": "पुणे में डेक्कन जिमखाना से हिंजेवाड़ी फेज़ वन की करीब चालीस मिनट की ड्राइव पर अगला सिग्नल लाल होता है। फोन देखने का फैसला करने से पहले ही हाथ फोन की तरफ बढ़ जाता है। आज इसी छोटी आदत की बात करेंगे: हर खाली पल भरने के बजाय, थोड़ा विराम लेने से ध्यान पर क्या बदलता है?"
+        },
+        {
+          "id": "switching",
+          "chapter": "02",
+          "title": "The cost of switching",
+          "priority": "essential",
+          "targetSeconds": 30,
+          "concepts": [
+            "switching"
+          ],
+          "prerequisites": [
+            "attention"
+          ],
+          "script": "हमारा ध्यान एक समय पर कुछ ही चीजों को चुन पाता है। बातचीत से सूचना पर, फिर छोटे वीडियो पर जाते समय मन को हर बार नया संदर्भ पकड़ना पड़ता है। हर सूचना नुकसानदायक नहीं होती। बात इतनी है कि बार बार बदलने की कीमत होती है। काम चुनना और स्क्रीन के इशारे पर काम बदलना, दोनों अलग अनुभव हैं।"
+        },
+        {
+          "id": "ai",
+          "chapter": "03",
+          "title": "When every answer is instant",
+          "priority": "optional",
+          "targetSeconds": 25,
+          "concepts": [
+            "ai"
+          ],
+          "prerequisites": [
+            "switching"
+          ],
+          "script": "कृत्रिम बुद्धिमत्ता कुछ सेकंड में दस सुझाव दे सकती है। यह सुविधा उपयोगी है। लेकिन दस सुझाव मांगने से पहले अपना एक विचार बनाने की कोशिश कीजिए। तब आपके पास उन सुझावों को परखने के लिए अपना आधार होगा। जल्दी उत्तर मिलना एक क्षमता है। कब उस गति का इस्तेमाल करना है, यह अलग कौशल है।"
+        },
+        {
+          "id": "boredom",
+          "chapter": "04",
+          "title": "Boredom is a signal",
+          "priority": "essential",
+          "targetSeconds": 30,
+          "concepts": [
+            "boredom"
+          ],
+          "prerequisites": [
+            "switching"
+          ],
+          "script": "ऊब रचनात्मकता का कोई जादुई बटन नहीं है। वह असहज हो सकती है, या बता सकती है कि कोई काम हमें जोड़ नहीं पा रहा। लेकिन यही बेचैनी एक आदत दिखाती है: अपनी जरूरत समझने से पहले हर विराम भर देना। शांत पल में विचार आए, भावना आए, या कुछ खास न हो। उसे भी उपलब्धि बनाने की जरूरत नहीं।"
+        },
+        {
+          "id": "culture",
+          "chapter": "05",
+          "title": "A pause in the story",
+          "priority": "optional",
+          "targetSeconds": 25,
+          "concepts": [
+            "culture"
+          ],
+          "prerequisites": [
+            "boredom"
+          ],
+          "script": "किसी फिल्म का वह दृश्य याद कीजिए जहां संवाद के बाद भी कैमरा ठहरता है। कोई नई बात नहीं कही जाती, फिर भी असर गहरा हो सकता है, क्योंकि महसूस करने का वक्त मिलता है। चाय का इंतजार या बस की खिड़की से पेड़ देखना भी ऐसा विराम है। हर पल से सीख निकालना जरूरी नहीं। उसे पूरा होने देना भी ध्यान है।"
+        },
+        {
+          "id": "practice",
+          "chapter": "06",
+          "title": "Try one small gap",
+          "priority": "essential",
+          "targetSeconds": 25,
+          "concepts": [
+            "practice"
+          ],
+          "prerequisites": [
+            "boredom"
+          ],
+          "script": "बाद में, सुरक्षित जगह रुककर या यात्री बनकर, यह छोटा प्रयोग कीजिए। फोन खोलने से पहले पूछिए: मैं क्या ढूंढ रहा हूं? जवाब पता है तो आगे बढ़िए। नहीं पता तो एक साधारण मिनट खाली छोड़िए। आसपास देखिए, एक विचार पूरा होने दीजिए, फिर चुनिए। लक्ष्य सोच समझकर चुनाव करना है, स्क्रीन समय का बेदाग हिसाब नहीं।"
+        },
+        {
+          "id": "recap",
+          "chapter": "07",
+          "title": "Take the idea with you",
+          "priority": "recap",
+          "targetSeconds": 25,
+          "concepts": [
+            "recap"
+          ],
+          "prerequisites": [
+            "practice"
+          ],
+          "script": "इस सफर से तीन बातें साथ ले चलिए। बार बार ध्यान बदलने की कीमत होती है। ऊब एक संकेत हो सकती है, शानदार विचार की गारंटी नहीं। और एक खाली मिनट अगला कदम चुनने में मदद कर सकता है। अब छोटे से दोहराव में अपने शब्दों में जवाब दीजिए। मेरे वाक्य दोहराने से ज्यादा जरूरी है कि बात याद रहे।"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "बार बार ध्यान बदलने की एक कीमत क्या है?",
+          "expectedAnswer": "मन को हर बार नया संदर्भ पकड़ना पड़ता है; ध्यान और समय लगता है।",
+          "concepts": [
+            "switching"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "फोन खोलने से पहले कौन सा छोटा प्रयोग कर सकते हैं?",
+          "expectedAnswer": "पूछें कि क्या ढूंढ रहे हैं; जरूरत साफ न हो तो सुरक्षित जगह एक मिनट खाली छोड़कर चुनाव करें।",
+          "concepts": [
+            "practice"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "APA: Multitasking and switching costs",
+          "url": "https://www.apa.org/topics/research/multitasking"
+        },
+        {
+          "title": "Westgate & Wilson: Boredom and cognitive engagement",
+          "url": "https://doi.org/10.1037/rev0000097"
+        }
+      ],
+      "createdAt": "2026-10-24T00:00:00.000Z",
+      "demo": true
+    },
+    "hinglish": {
+      "id": "boredom-hinglish",
+      "version": 1,
+      "title": "Why your brain needs a little boredom",
+      "description": "Pune ki forty-minute commute par attention aur everyday pauses ke baare mein four-minute prepared sample.",
+      "language": "hinglish",
+      "targetSeconds": 240,
+      "chunks": [
+        {
+          "id": "opening",
+          "chapter": "01",
+          "title": "The quiet between things",
+          "priority": "essential",
+          "targetSeconds": 20,
+          "concepts": [
+            "attention"
+          ],
+          "prerequisites": [],
+          "script": "Pune ke Deccan Gymkhana se Hinjawadi Phase One tak, yeh around forty-minute commute hai. Agla signal red hota hai aur phone check karne ka decision lene se pehle hi haath phone ki taraf chala jaata hai. Aaj isi tiny impulse ko explore karte hain; har pause mein content bharne ke bajay thoda space chhodne se attention par kya badalta hai?"
+        },
+        {
+          "id": "switching",
+          "chapter": "02",
+          "title": "The cost of switching",
+          "priority": "essential",
+          "targetSeconds": 30,
+          "concepts": [
+            "switching"
+          ],
+          "prerequisites": [
+            "attention"
+          ],
+          "script": "Attention selective है। Conversation से notification, फिर short video पर जाते हुए mind को हर बार नया context पकड़ना पड़ता है। इसका मतलब हर notification harmful है, ऐसा नहीं। बस switching की एक cost होती है। खुद अगला काम choose करना, और screen पर जो चमके उसके पीछे चल देना: दोनों experiences का फर्क notice कीजिए।"
+        },
+        {
+          "id": "ai",
+          "chapter": "03",
+          "title": "When every answer is instant",
+          "priority": "optional",
+          "targetSeconds": 25,
+          "concepts": [
+            "ai"
+          ],
+          "prerequisites": [
+            "switching"
+          ],
+          "script": "AI seconds में ten ideas दे सकता है। Super useful. लेकिन उससे दस ideas मांगने से पहले अपना एक idea सोचिए। फिर suggestions को compare करने के लिए आपका अपना starting point होगा। Fast answer मिलना एक capability है। उस speed को कब use करना है, यह अलग skill है। थोड़ी सी pause आपकी judgment को भी जगह देती है।"
+        },
+        {
+          "id": "boredom",
+          "chapter": "04",
+          "title": "Boredom is a signal",
+          "priority": "essential",
+          "targetSeconds": 30,
+          "concepts": [
+            "boredom"
+          ],
+          "prerequisites": [
+            "switching"
+          ],
+          "script": "Boredom कोई magic creativity button नहीं है। कभी वह uncomfortable होती है, कभी बस बताती है कि activity engaging नहीं है। लेकिन यही restlessness एक habit दिखा सकती है: हर pause को भर देना, उससे पहले कि हम अपनी जरूरत notice करें। Quiet minute में idea आए, feeling आए, या कुछ खास न आए। उसे productivity challenge बनाना जरूरी नहीं।"
+        },
+        {
+          "id": "culture",
+          "chapter": "05",
+          "title": "A pause in the story",
+          "priority": "optional",
+          "targetSeconds": 25,
+          "concepts": [
+            "culture"
+          ],
+          "prerequisites": [
+            "boredom"
+          ],
+          "script": "किसी film का वह shot याद है जो dialogue खत्म होने के बाद भी ठहरता है? New information नहीं आती, फिर भी scene का असर बढ़ सकता है। Feel करने का time मिलता है। Chai का इंतजार, bus window से पेड़ देखना: everyday life में भी ऐसे pauses हैं। हर moment से lesson निकालना जरूरी नहीं। Sometimes उसे finish होने देना enough है।"
+        },
+        {
+          "id": "practice",
+          "chapter": "06",
+          "title": "Try one small gap",
+          "priority": "essential",
+          "targetSeconds": 25,
+          "concepts": [
+            "practice"
+          ],
+          "prerequisites": [
+            "boredom"
+          ],
+          "script": "Later, जब safely stopped हों या passenger हों, एक छोटा experiment try कीजिए। Phone unlock करने से पहले पूछिए: मैं क्या ढूंढ रहा हूं? Answer clear है तो go ahead। नहीं है तो एक ordinary minute unfilled छोड़िए। आसपास देखिए, thought को finish होने दीजिए, फिर choose कीजिए। Goal deliberate choice है, perfect screen time score नहीं।"
+        },
+        {
+          "id": "recap",
+          "chapter": "07",
+          "title": "Take the idea with you",
+          "priority": "recap",
+          "targetSeconds": 25,
+          "concepts": [
+            "recap"
+          ],
+          "prerequisites": [
+            "practice"
+          ],
+          "script": "इस ride से three things साथ ले जाइए। Attention switch करने की cost होती है। Boredom एक signal हो सकती है, brilliant ideas की guarantee नहीं। और एक unfilled minute आपको अगला step choose करने का space दे सकता है। अब quick recall में अपने words use कीजिए। Idea याद रहना matters; मेरी exact sentence repeat करना जरूरी नहीं।"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "बार बार attention switch करने की एक cost क्या है?",
+          "expectedAnswer": "Mind को हर बार नया context पकड़ना पड़ता है; attention और time लगता है।",
+          "concepts": [
+            "switching"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Phone unlock करने से पहले कौन सा छोटा experiment try कर सकते हैं?",
+          "expectedAnswer": "पूछें मैं क्या ढूंढ रहा हूं; clear न हो तो safely one unfilled minute लें और फिर choose करें।",
+          "concepts": [
+            "practice"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "APA: Multitasking and switching costs",
+          "url": "https://www.apa.org/topics/research/multitasking"
+        },
+        {
+          "title": "Westgate & Wilson: Boredom and cognitive engagement",
+          "url": "https://doi.org/10.1037/rev0000097"
+        }
+      ],
+      "createdAt": "2026-10-24T00:00:00.000Z",
+      "demo": true
+    }
+  },
+  "audio": {
+    "en": [
+      {
+        "id": "opening",
+        "planVersion": 1,
+        "durationSeconds": 18,
+        "spokenTranscript": "On the Pune drive from Deccan Gymkhana to Hinjawadi Phase One, a signal turns red. Before you decide to check your phone, your hand is already reaching for it. That tiny impulse is our subject. Over this forty-minute commute, let us explore what a little space between inputs can do.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-opening.mp3"
+      },
+      {
+        "id": "switching",
+        "planVersion": 1,
+        "durationSeconds": 21.7,
+        "spokenTranscript": "Attention is selective. When you move from a conversation to a notification, then to a short video, your mind has to orient itself again. That does not mean every notification is harmful. It means switching has a cost. Try noticing the difference between choosing a task and having the next task chosen by whatever flashes on a screen.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-switching.mp3"
+      },
+      {
+        "id": "ai",
+        "planVersion": 1,
+        "durationSeconds": 19.6,
+        "spokenTranscript": "AI makes the pause before an answer feel almost obsolete. A tool can suggest ten ideas in seconds. Useful, certainly. But before asking for ten ideas, try forming one of your own. That little effort gives you something to compare the suggestions against. Speed is a capability. Deciding when to use it is a separate skill.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-ai.mp3"
+      },
+      {
+        "id": "boredom",
+        "planVersion": 1,
+        "durationSeconds": 22.45,
+        "spokenTranscript": "Boredom is not a magic creativity button. It can be uncomfortable, and sometimes it simply means an activity is not engaging you. But that discomfort can reveal a habit: filling every pause before noticing what we need. A quiet minute might lead to an idea, a feeling, or nothing remarkable. You do not have to turn the quiet into another productivity challenge.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-boredom.mp3"
+      },
+      {
+        "id": "culture",
+        "planVersion": 1,
+        "durationSeconds": 20.7,
+        "spokenTranscript": "Think of a film that lets a shot linger after the dialogue ends. Nothing new is being said, yet the scene can deepen because you have time to feel it. Everyday life has similar pauses: waiting for chai, watching a tree through a bus window. You need not squeeze a lesson from them. Sometimes attention begins with allowing a moment to finish.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-culture.mp3"
+      },
+      {
+        "id": "practice",
+        "planVersion": 1,
+        "durationSeconds": 24.4,
+        "spokenTranscript": "Here is a small experiment for later, when you are safely stopped or sitting as a passenger. Before unlocking your phone, ask: what am I looking for? If you know, go ahead. If you do not, leave one ordinary minute unfilled. Look around, let a thought finish, then choose. The goal is a deliberate choice, not a perfect record of screen time.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-practice.mp3"
+      },
+      {
+        "id": "recap",
+        "planVersion": 1,
+        "durationSeconds": 21.45,
+        "spokenTranscript": "Let's carry three things to the end of this ride. Switching attention has a cost. Boredom can be a signal worth noticing, without being a guaranteed source of brilliant ideas. And one unfilled minute can help you choose what comes next. In the quick recall that follows, use your own words. Remembering the idea matters more than repeating my sentence.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-recap.mp3"
+      },
+      {
+        "id": "extension-noticing",
+        "planVersion": 1,
+        "durationSeconds": 32.3,
+        "spokenTranscript": "We have a little more time. Imagine you put the phone away and immediately feel an itch to pick it up. Instead of judging the urge, give it a name: looking for novelty, avoiding a difficult thought, or simply waiting. You may not know which it is. That is fine. The point is to create a brief gap between an impulse and an action. You can still choose to open the phone. What changes is that the choice becomes more visible. Try this once, rather than turning it into a rule for every moment of your day.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-extension-noticing.mp3"
+      },
+      {
+        "id": "extension-environment",
+        "planVersion": 1,
+        "durationSeconds": 29.9,
+        "spokenTranscript": "A little boredom is easier to tolerate when the environment is not constantly asking for a response. Later, you might move one distracting app off the first screen or silence an alert you rarely need. Choose one small change that helps your own routine. Keep the notifications that actually matter to you. This is not a contest to own the quietest phone. It is a way to let your surroundings support a decision you already want to make. Then notice whether the change helps; if it does not, adjust it.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-extension-environment.mp3"
+      },
+      {
+        "id": "compact-recap",
+        "planVersion": 1,
+        "durationSeconds": 10.1,
+        "spokenTranscript": "Your takeaway: switching has a cost. Notice the urge to fill a pause. Later, safely try one quiet minute before choosing your next input.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-compact-recap.mp3"
+      },
+      {
+        "id": "extension-meaning",
+        "planVersion": 1,
+        "durationSeconds": 53.25,
+        "spokenTranscript": "Here is another way to understand that restless feeling. The meaning and attention model of boredom asks two useful questions. Can I engage my attention with this activity? And does this activity feel worth doing? An activity can be too easy, leaving attention with little to hold. It can also be too difficult, making attention hard to sustain. Meanwhile, a task can demand plenty of effort and still feel pointless. Think of sorting an enormous spreadsheet without knowing what anyone will use it for. Later, at your desk, you could try one small adjustment. If the task feels overwhelming, choose a clearly bounded first step. If its purpose is missing, ask what decision the work should support. These are practical ways to apply the model, not a promise that every dull task will become enjoyable. The useful move is to identify the mismatch before reaching automatically for more stimulation.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-extension-meaning.mp3"
+      },
+      {
+        "id": "extension-return",
+        "planVersion": 1,
+        "durationSeconds": 54.3,
+        "spokenTranscript": "Let us bring switching costs into an ordinary afternoon. You are working through a problem when an unrelated message arrives. You read it, answer it, and return to the original task. The visible interruption might be short, yet finding your place can take another moment. Research on task switching helps explain why the total cost can be larger than the interruption itself. A practical experiment, when you are back at your desk, is to leave a doorway back. Before a planned break, write a short note describing the next concrete step, such as compare these two figures or finish the second paragraph. Keep the note specific enough that your future self can recognize the task. This is a suggestion for your own routine, not a result established by the switching experiment. Try it once and judge whether returning feels easier. Small experiments can teach you about your attention without turning your day into another optimization project.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/en-extension-return.mp3"
+      }
+    ],
+    "hi": [
+      {
+        "id": "opening",
+        "planVersion": 1,
+        "durationSeconds": 19.85,
+        "spokenTranscript": "पुणे में डेक्कन जिमखाना से हिंजेवाड़ी फेज़ वन की करीब चालीस मिनट की ड्राइव पर अगला सिग्नल लाल होता है। फोन देखने का फैसला करने से पहले ही हाथ फोन की तरफ बढ़ जाता है। आज इसी छोटी आदत की बात करेंगे: हर खाली पल भरने के बजाय, थोड़ा विराम लेने से ध्यान पर क्या बदलता है?",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-opening.mp3"
+      },
+      {
+        "id": "switching",
+        "planVersion": 1,
+        "durationSeconds": 21.35,
+        "spokenTranscript": "हमारा ध्यान एक समय पर कुछ ही चीजों को चुन पाता है। बातचीत से सूचना पर, फिर छोटे वीडियो पर जाते समय मन को हर बार नया संदर्भ पकड़ना पड़ता है। हर सूचना नुकसानदायक नहीं होती। बात इतनी है कि बार बार बदलने की कीमत होती है। काम चुनना और स्क्रीन के इशारे पर काम बदलना, दोनों अलग अनुभव हैं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-switching.mp3"
+      },
+      {
+        "id": "ai",
+        "planVersion": 1,
+        "durationSeconds": 19.8,
+        "spokenTranscript": "कृत्रिम बुद्धिमत्ता कुछ सेकंड में दस सुझाव दे सकती है। यह सुविधा उपयोगी है। लेकिन दस सुझाव मांगने से पहले अपना एक विचार बनाने की कोशिश कीजिए। तब आपके पास उन सुझावों को परखने के लिए अपना आधार होगा। जल्दी उत्तर मिलना एक क्षमता है। कब उस गति का इस्तेमाल करना है, यह अलग कौशल है।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-ai.mp3"
+      },
+      {
+        "id": "boredom",
+        "planVersion": 1,
+        "durationSeconds": 21.4,
+        "spokenTranscript": "ऊब रचनात्मकता का कोई जादुई बटन नहीं है। वह असहज हो सकती है, या बता सकती है कि कोई काम हमें जोड़ नहीं पा रहा। लेकिन यही बेचैनी एक आदत दिखाती है: अपनी जरूरत समझने से पहले हर विराम भर देना। शांत पल में विचार आए, भावना आए, या कुछ खास न हो। उसे भी उपलब्धि बनाने की जरूरत नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-boredom.mp3"
+      },
+      {
+        "id": "culture",
+        "planVersion": 1,
+        "durationSeconds": 23.55,
+        "spokenTranscript": "किसी फिल्म का वह दृश्य याद कीजिए जहां संवाद के बाद भी कैमरा ठहरता है। कोई नई बात नहीं कही जाती, फिर भी असर गहरा हो सकता है, क्योंकि महसूस करने का वक्त मिलता है। चाय का इंतजार या बस का खिड़की से पेड़ देखना भी ऐसा विराम है। हर पल से सीख निकालना जरूरी नहीं। उसे पूरे होने देना भी ध्यान है।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-culture.mp3"
+      },
+      {
+        "id": "practice",
+        "planVersion": 1,
+        "durationSeconds": 22.9,
+        "spokenTranscript": "बाद में, सुरक्षित जगह रुककर या यात्री बनकर, यह छोटा प्रयोग कीजिए। फोन खोलने से पहले पूछिए: मैं क्या ढूंढ रहा हूं? जवाब पता है तो आगे बढ़िए। नहीं पता तो एक साधारण मिनट खाली छोड़िए। आसपास देखिए, एक विचार पूरा होने दीजिए, फिर चुनिए। लक्ष्य सोच समझकर चुनाव करना है, स्क्रीन समय का बेदाग हिसाब नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-practice.mp3"
+      },
+      {
+        "id": "recap",
+        "planVersion": 1,
+        "durationSeconds": 20.1,
+        "spokenTranscript": "इस सफर से तीन बातें साथ ले चलिए। बार बार ध्यान बदलने की कीमत होती है। ऊब एक संकेत हो सकती है, शानदार विचार की गारंटी नहीं। और एक खाली मिनट अगला कदम चुनने में मदद कर सकता है। अब छोटे से दोहराव में अपने शब्दों में जवाब दीजिए। मेरे वाक्य दोहराने से ज्यादा जरूरी है कि बात याद रहे।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-recap.mp3"
+      },
+      {
+        "id": "extension-noticing",
+        "planVersion": 1,
+        "durationSeconds": 30.65,
+        "spokenTranscript": "हमारे पास थोड़ा और समय है। कल्पना कीजिए कि फोन रख दिया और तुरंत उसे फिर उठाने की इच्छा हुई। इच्छा को गलत कहने के बजाय उसका नाम खोजिए: कुछ नया चाहिए, कोई कठिन विचार टालना है, या बस इंतजार है। शायद जवाब पता न चले। कोई बात नहीं। मकसद इच्छा और काम के बीच छोटा सा अंतर बनाना है। आप फिर भी फोन खोल सकते हैं। फर्क यह है कि अब अपना चुनाव थोड़ा साफ दिखता है। बस एक बार आजमाइए, पूरे दिन के हर पल का नियम मत बनाइए।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-extension-noticing.mp3"
+      },
+      {
+        "id": "extension-environment",
+        "planVersion": 1,
+        "durationSeconds": 28.5,
+        "spokenTranscript": "जब आसपास की चीजें लगातार जवाब नहीं मांगतीं, तब छोटा विराम सहना आसान होता है। बाद में कोई ध्यान भटकाने वाला ऐप पहले पन्ने से हटा सकते हैं, या गैर जरूरी सूचना बंद कर सकते हैं। अपनी दिनचर्या के लिए एक छोटा बदलाव चुनिए। जरूरी सूचनाएं बनी रहने दीजिए। सबसे शांत फोन रखने की प्रतियोगिता नहीं है। बस आसपास की व्यवस्था आपके अपने फैसले में मदद करे। फिर देखिए बदलाव काम आया या नहीं। नहीं आया तो उसे बदल दीजिए।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-extension-environment.mp3"
+      },
+      {
+        "id": "compact-recap",
+        "planVersion": 1,
+        "durationSeconds": 11.75,
+        "spokenTranscript": "याद रखिए: ध्यान बदलने की क्रिया में मूल्य है। हर विराम भरने की इच्छा को पहचानिए। बाद में सुरक्षित जगह पर, अगली जानकारी चुनने से पहले एक शांत मिनट बिताएँ।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-compact-recap.mp3"
+      },
+      {
+        "id": "extension-meaning",
+        "planVersion": 1,
+        "durationSeconds": 53.65,
+        "spokenTranscript": "उस बेचैनी को समझने का एक और तरीका है। बोरियत का अर्थ और ध्यान मॉडल दो सवाल पूछता है। क्या मैं इस काम पर अपना ध्यान लगा पा रहा हूँ? और क्या यह काम मुझे करने लायक लगता है? कोई काम बहुत आसान हो सकता है, जिससे ध्यान को पकड़ने के लिए कुछ मिलता ही नहीं। वही काम बहुत मुश्किल भी हो सकता है, जिससे ध्यान टिकाना कठिन हो जाए। कभी मेहनत तो बहुत लगती है, लेकिन उसका उद्देश्य साफ़ नहीं होता। जैसे एक बड़ी तालिका भरना, बिना जाने कि उससे कौन सा फैसला लिया जाएगा। बाद में अपनी मेज़ पर एक छोटा बदलाव आज़मा सकते हैं। काम भारी लगे, तो पहला कदम छोटा और स्पष्ट करें। उद्देश्य गायब लगे, तो पूछें कि इस काम से किसे क्या समझने में मदद मिलेगी। ये मॉडल को व्यवहार में आज़माने के तरीके हैं। हर नीरस काम दिलचस्प हो जाएगा, ऐसा वादा नहीं। बात बस इतनी है कि नई उत्तेजना खोजने से पहले परेशानी की वजह को थोड़ा पहचानें।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-extension-meaning.mp3"
+      },
+      {
+        "id": "extension-return",
+        "planVersion": 1,
+        "durationSeconds": 51.6,
+        "spokenTranscript": "अब ध्यान बदलने की लागत को एक सामान्य दोपहर से जोड़ते हैं। आप कोई समस्या सुलझा रहे हैं और बीच में एक संदेश आता है। उसे पढ़कर जवाब देते हैं और फिर पुराने काम पर लौटते हैं। रुकावट छोटी थी, लेकिन अपनी जगह दोबारा खोजने में कुछ और समय लगता है। काम बदलने पर होने वाला शोध समझाता है कि कुल लागत दिखाई देने वाली रुकावट से बड़ी क्यों हो सकती है। बाद में अपनी मेज़ पर एक छोटा प्रयोग करें। किसी तय ब्रेक से पहले अगला स्पष्ट कदम लिख दें। मसलन, इन दो संख्याओं की तुलना करनी है, या दूसरे अनुच्छेद का अंत पूरा करना है। संकेत इतना साफ हो कि लौटने पर पहचान जाएँ कि कहाँ से शुरू करना है। यह आपकी दिनचर्या के लिए सुझाव है, उस प्रयोग का सीधा निष्कर्ष नहीं। एक बार आज़माएँ और देखें कि वापसी आसान लगती है या नहीं। अपने ध्यान को समझने के लिए हर दिन को उत्पादकता की परीक्षा बनाना ज़रूरी नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hi-extension-return.mp3"
+      }
+    ],
+    "hinglish": [
+      {
+        "id": "opening",
+        "planVersion": 1,
+        "durationSeconds": 20,
+        "spokenTranscript": "Pune ke Deccan Gymkhana se Hinjawadi Phase One tak, yeh around forty-minute commute hai. Agla signal red hota hai aur phone check karne ka decision lene se pehle hi haath phone ki taraf chala jaata hai. Aaj isi tiny impulse ko explore karte hain; har pause mein content bharne ke bajay thoda space chhodne se attention par kya badalta hai?",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-opening.mp3"
+      },
+      {
+        "id": "switching",
+        "planVersion": 1,
+        "durationSeconds": 21.65,
+        "spokenTranscript": "Attention selective है। Conversation से notification, फिर short video पर जाते हुए mind को हर बार नया context पकड़ना पड़ता है। इसका मतलब हर notification harmful है, ऐसा नहीं। बस switching की एक cost होती है। खुद अगला काम choose करना, और screen पर जो चमके उसके पीछे चल देना: दोनों experiences का फर्क notice कीजिए।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-switching.mp3"
+      },
+      {
+        "id": "ai",
+        "planVersion": 1,
+        "durationSeconds": 20.2,
+        "spokenTranscript": "AI seconds में ten ideas दे सकता है। Super useful. लेकिन उससे दस ideas मांगने से पहले अपना एक idea सोचिए। फिर suggestions को compare करने के लिए आपका अपना starting point होगा। Fast answer मिलना एक capability है। उस speed को कब use करना है, यह अलग skill है। थोड़ी सी pause आपकी judgment को भी जगह देती है।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-ai.mp3"
+      },
+      {
+        "id": "boredom",
+        "planVersion": 1,
+        "durationSeconds": 22.05,
+        "spokenTranscript": "Boredom कोई magic creativity button नहीं है। कभी वह uncomfortable होती है, कभी बस बताती है कि activity engaging नहीं है। लेकिन यही restlessness एक habit दिखा सकती है: हर pause को भर देना, उससे पहले कि हम अपनी जरूरत notice करें। Quiet minute में idea आए, feeling आए, या कुछ खास न आए। उसे productivity challenge बनाना जरूरी नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-boredom.mp3"
+      },
+      {
+        "id": "culture",
+        "planVersion": 1,
+        "durationSeconds": 22.25,
+        "spokenTranscript": "किसी film का वह shot याद है जो dialogue खत्म होने के बाद भी ठहरता है? New information नहीं आती, फिर भी scene का असर बढ़ सकता है. Feel करने का time मिलता है. Chai का इंतजार, bus window से पेड़ देखना: everyday life में भी ऐसे pauses हैं. हर moment से lesson निकालना जरूरी नहीं. Sometimes उसे finish होने देना enough है.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-culture.mp3"
+      },
+      {
+        "id": "practice",
+        "planVersion": 1,
+        "durationSeconds": 22.65,
+        "spokenTranscript": "Later, जब safely stopped हों या passenger हों, एक छोटा experiment try कीजिए। Phone unlock करने से पहले पूछिए: मैं क्या ढूंढ रहा हूं? Answer clear है तो go ahead। नहीं है तो एक ordinary minute unfilled छोड़िए। आसपास देखिए, thought को finish होने दीजिए, फिर choose कीजिए। Goal deliberate choice है, perfect screen time score नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-practice.mp3"
+      },
+      {
+        "id": "recap",
+        "planVersion": 1,
+        "durationSeconds": 21.2,
+        "spokenTranscript": "इस ride से three things साथ ले जाइए। Attention switch करने की cost होती है। Boredom एक signal हो सकती है, brilliant ideas की guarantee नहीं। और एक unfilled minute आपको अगला step choose करने का space दे सकता है। अब quick recall में अपने words use कीजिए। Idea याद रहना matters; मेरी exact sentence repeat करना जरूरी नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-recap.mp3"
+      },
+      {
+        "id": "extension-noticing",
+        "planVersion": 1,
+        "durationSeconds": 28.2,
+        "spokenTranscript": "थोड़ा extra time है। Imagine phone रख दिया और तुरंत फिर pick up करने का urge आया। उसे judge करने की जगह एक name दीजिए: novelty चाहिए, difficult thought avoid करना है, या बस waiting है? शायद पता न चले। That's okay. Point है impulse और action के बीच छोटा gap बनाना। आप फिर भी phone open कर सकते हैं। फर्क इतना है कि choice visible होती है。 बस once try कीजिए, पूरे day के हर moment का rule बनाने की जरूरत नहीं।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-extension-noticing.mp3"
+      },
+      {
+        "id": "extension-environment",
+        "planVersion": 1,
+        "durationSeconds": 28.75,
+        "spokenTranscript": "अगर environment हर second response नहीं मांग रहा, तो छोटा pause आसान लगता है। Later, एक distracting app first screen से हटाइए, या ऐसा alert silence कीजिए जिसकी जरूरत कम होती है। अपनी routine के लिए one small change choose कीजिए। जरूरी notifications रखिए। Quietest phone रखने का contest नहीं है। बस surroundings आपके already chosen decision को support करें। फिर notice कीजिए change helpful है या नहीं। नहीं है तो adjust कर दीजिए।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-extension-environment.mp3"
+      },
+      {
+        "id": "compact-recap",
+        "planVersion": 1,
+        "durationSeconds": 10.3,
+        "spokenTranscript": "Takeaway: switching की cost है। हर pause भरने का urge notice कीजिए। Later, safely एक quiet minute try कीजिए, फिर अपना next input choose कीजिए।",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-compact-recap.mp3"
+      },
+      {
+        "id": "extension-meaning",
+        "planVersion": 1,
+        "durationSeconds": 48.7,
+        "spokenTranscript": "Us restless feeling ko samajhne ka ek aur angle hai. Meaning aur attention model of boredom do useful sawaal poochta hai. Kya main is activity par attention laga paa raha hoon? Aur kya yeh activity mujhe worth doing lagti hai? Koi task bahut easy ho sakta hai, jahan attention ke paas pakadne ke liye kuch khaas nahi. Bahut difficult task mein bhi attention sustain karna mushkil ho sakta hai. Kabhi effort kaafi lagta hai, lekin purpose missing hota hai. Jaise ek badi spreadsheet bharna, bina jaane ki usse kaunsa decision hoga. Baad mein desk par ek chhota adjustment try kar sakte ho. Task overwhelming lage toh first step ko chhota aur clear karo. Purpose missing lage toh poochho, yeh work kiski kaunsi understanding improve karega? Yeh model ko apply karne ke practical suggestions hain, har boring task ko exciting banane ki guarantee nahi. Bas stimulation dhoondhne se pehle mismatch ko thoda pehchaano.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-extension-meaning.mp3"
+      },
+      {
+        "id": "extension-return",
+        "planVersion": 1,
+        "durationSeconds": 52.25,
+        "spokenTranscript": "Ab switching costs ko ek normal afternoon mein dekho. Tum ek problem solve kar rahe ho aur beech mein koi unrelated message aa jaata hai. Use padhkar reply kiya, phir original task par laut aaye. Interruption chhota tha, lekin apni jagah dobara dhoondhne mein thoda aur time laga. Task switching par research samjhati hai ki total cost visible interruption se badi kyun ho sakti hai. Baad mein desk par ek practical experiment try karo. Planned break se pehle next concrete step ka chhota note chhod do. Jaise in do figures ko compare karna hai, ya second paragraph finish karna hai. Note itna specific ho ki future wale tumhe turant samajh aae ki kahan se shuru karna hai. Yeh tumhari routine ke liye suggestion hai, switching experiment ka direct result nahi. Ek baar try karke dekho ki returning easier lagti hai ya nahi. Attention samajhne ke liye poore din ko optimization project banana zaroori nahi.",
+        "mimeType": "audio/mpeg",
+        "url": "/demo/hinglish-extension-return.mp3"
+      }
+    ]
+  },
+  "extensions": {
+    "en": [
+      {
+        "id": "extension-noticing",
+        "chapter": "08",
+        "title": "Notice the urge",
+        "priority": "optional",
+        "targetSeconds": 45,
+        "concepts": [
+          "noticing"
+        ],
+        "prerequisites": [
+          "practice"
+        ],
+        "script": "We have a little more time. Imagine you put the phone away and immediately feel an itch to pick it up. Instead of judging the urge, give it a name: looking for novelty, avoiding a difficult thought, or simply waiting. You may not know which it is. That is fine. The point is to create a brief gap between an impulse and an action. You can still choose to open the phone. What changes is that the choice becomes more visible. Try this once, rather than turning it into a rule for every moment of your day."
+      },
+      {
+        "id": "extension-environment",
+        "chapter": "09",
+        "title": "Make the pause easier",
+        "priority": "optional",
+        "targetSeconds": 45,
+        "concepts": [
+          "environment"
+        ],
+        "prerequisites": [
+          "practice"
+        ],
+        "script": "A little boredom is easier to tolerate when the environment is not constantly asking for a response. Later, you might move one distracting app off the first screen or silence an alert you rarely need. Choose one small change that helps your own routine. Keep the notifications that actually matter to you. This is not a contest to own the quietest phone. It is a way to let your surroundings support a decision you already want to make. Then notice whether the change helps; if it does not, adjust it."
+      },
+      {
+        "id": "extension-meaning",
+        "chapter": "10",
+        "title": "Find the right kind of challenge",
+        "priority": "optional",
+        "targetSeconds": 55,
+        "concepts": [
+          "attention-fit"
+        ],
+        "prerequisites": [
+          "boredom"
+        ],
+        "script": "Here is another way to understand that restless feeling. The meaning and attention model of boredom asks two useful questions. Can I engage my attention with this activity? And does this activity feel worth doing? An activity can be too easy, leaving attention with little to hold. It can also be too difficult, making attention hard to sustain. Meanwhile, a task can demand plenty of effort and still feel pointless. Think of sorting an enormous spreadsheet without knowing what anyone will use it for. Later, at your desk, you could try one small adjustment. If the task feels overwhelming, choose a clearly bounded first step. If its purpose is missing, ask what decision the work should support. These are practical ways to apply the model, not a promise that every dull task will become enjoyable. The useful move is to identify the mismatch before reaching automatically for more stimulation."
+      },
+      {
+        "id": "extension-return",
+        "chapter": "11",
+        "title": "Leave a doorway back",
+        "priority": "optional",
+        "targetSeconds": 55,
+        "concepts": [
+          "return-cue"
+        ],
+        "prerequisites": [
+          "switching"
+        ],
+        "script": "Let us bring switching costs into an ordinary afternoon. You are working through a problem when an unrelated message arrives. You read it, answer it, and return to the original task. The visible interruption might be short, yet finding your place can take another moment. Research on task switching helps explain why the total cost can be larger than the interruption itself. A practical experiment, when you are back at your desk, is to leave a doorway back. Before a planned break, write a short note describing the next concrete step, such as compare these two figures or finish the second paragraph. Keep the note specific enough that your future self can recognize the task. This is a suggestion for your own routine, not a result established by the switching experiment. Try it once and judge whether returning feels easier. Small experiments can teach you about your attention without turning your day into another optimization project."
+      }
+    ],
+    "hi": [
+      {
+        "id": "extension-noticing",
+        "chapter": "08",
+        "title": "Notice the urge",
+        "priority": "optional",
+        "targetSeconds": 45,
+        "concepts": [
+          "noticing"
+        ],
+        "prerequisites": [
+          "practice"
+        ],
+        "script": "हमारे पास थोड़ा और समय है। कल्पना कीजिए कि फोन रख दिया और तुरंत उसे फिर उठाने की इच्छा हुई। इच्छा को गलत कहने के बजाय उसका नाम खोजिए: कुछ नया चाहिए, कोई कठिन विचार टालना है, या बस इंतजार है। शायद जवाब पता न चले। कोई बात नहीं। मकसद इच्छा और काम के बीच छोटा सा अंतर बनाना है। आप फिर भी फोन खोल सकते हैं। फर्क यह है कि अब अपना चुनाव थोड़ा साफ दिखता है। बस एक बार आजमाइए, पूरे दिन के हर पल का नियम मत बनाइए।"
+      },
+      {
+        "id": "extension-environment",
+        "chapter": "09",
+        "title": "Make the pause easier",
+        "priority": "optional",
+        "targetSeconds": 45,
+        "concepts": [
+          "environment"
+        ],
+        "prerequisites": [
+          "practice"
+        ],
+        "script": "जब आसपास की चीजें लगातार जवाब नहीं मांगतीं, तब छोटा विराम सहना आसान होता है। बाद में कोई ध्यान भटकाने वाला ऐप पहले पन्ने से हटा सकते हैं, या गैर जरूरी सूचना बंद कर सकते हैं। अपनी दिनचर्या के लिए एक छोटा बदलाव चुनिए। जरूरी सूचनाएं बनी रहने दीजिए। सबसे शांत फोन रखने की प्रतियोगिता नहीं है। बस आसपास की व्यवस्था आपके अपने फैसले में मदद करे। फिर देखिए बदलाव काम आया या नहीं। नहीं आया तो उसे बदल दीजिए।"
+      },
+      {
+        "id": "extension-meaning",
+        "chapter": "10",
+        "title": "सही चुनौती की तलाश",
+        "priority": "optional",
+        "targetSeconds": 55,
+        "concepts": [
+          "attention-fit"
+        ],
+        "prerequisites": [
+          "boredom"
+        ],
+        "script": "उस बेचैनी को समझने का एक और तरीका है। बोरियत का अर्थ और ध्यान मॉडल दो सवाल पूछता है। क्या मैं इस काम पर अपना ध्यान लगा पा रहा हूँ? और क्या यह काम मुझे करने लायक लगता है? कोई काम बहुत आसान हो सकता है, जिससे ध्यान को पकड़ने के लिए कुछ मिलता ही नहीं। वही काम बहुत मुश्किल भी हो सकता है, जिससे ध्यान टिकाना कठिन हो जाए। कभी मेहनत तो बहुत लगती है, लेकिन उसका उद्देश्य साफ़ नहीं होता। जैसे एक बड़ी तालिका भरना, बिना जाने कि उससे कौन सा फैसला लिया जाएगा। बाद में अपनी मेज़ पर एक छोटा बदलाव आज़मा सकते हैं। काम भारी लगे, तो पहला कदम छोटा और स्पष्ट करें। उद्देश्य गायब लगे, तो पूछें कि इस काम से किसे क्या समझने में मदद मिलेगी। ये मॉडल को व्यवहार में आज़माने के तरीके हैं। हर नीरस काम दिलचस्प हो जाएगा, ऐसा वादा नहीं। बात बस इतनी है कि नई उत्तेजना खोजने से पहले परेशानी की वजह को थोड़ा पहचानें।"
+      },
+      {
+        "id": "extension-return",
+        "chapter": "11",
+        "title": "वापसी का एक छोटा रास्ता",
+        "priority": "optional",
+        "targetSeconds": 55,
+        "concepts": [
+          "return-cue"
+        ],
+        "prerequisites": [
+          "switching"
+        ],
+        "script": "अब ध्यान बदलने की लागत को एक सामान्य दोपहर से जोड़ते हैं। आप कोई समस्या सुलझा रहे हैं और बीच में एक संदेश आता है। उसे पढ़कर जवाब देते हैं और फिर पुराने काम पर लौटते हैं। रुकावट छोटी थी, लेकिन अपनी जगह दोबारा खोजने में कुछ और समय लगता है। काम बदलने पर होने वाला शोध समझाता है कि कुल लागत दिखाई देने वाली रुकावट से बड़ी क्यों हो सकती है। बाद में अपनी मेज़ पर एक छोटा प्रयोग करें। किसी तय ब्रेक से पहले अगला स्पष्ट कदम लिख दें। मसलन, इन दो संख्याओं की तुलना करनी है, या दूसरे अनुच्छेद का अंत पूरा करना है। संकेत इतना साफ़ हो कि लौटने पर पहचान जाएँ कि कहाँ से शुरू करना है। यह आपकी दिनचर्या के लिए सुझाव है, उस प्रयोग का सीधा निष्कर्ष नहीं। एक बार आज़माएँ और देखें कि वापसी आसान लगती है या नहीं। अपने ध्यान को समझने के लिए हर दिन को उत्पादकता की परीक्षा बनाना ज़रूरी नहीं।"
+      }
+    ],
+    "hinglish": [
+      {
+        "id": "extension-noticing",
+        "chapter": "08",
+        "title": "Notice the urge",
+        "priority": "optional",
+        "targetSeconds": 45,
+        "concepts": [
+          "noticing"
+        ],
+        "prerequisites": [
+          "practice"
+        ],
+        "script": "थोड़ा extra time है। Imagine phone रख दिया और तुरंत फिर pick up करने का urge आया। उसे judge करने की जगह एक name दीजिए: novelty चाहिए, difficult thought avoid करना है, या बस waiting है? शायद पता न चले। That's okay. Point है impulse और action के बीच छोटा gap बनाना। आप फिर भी phone open कर सकते हैं। फर्क इतना है कि choice visible होती है। बस once try कीजिए, पूरे day के हर moment का rule बनाने की जरूरत नहीं।"
+      },
+      {
+        "id": "extension-environment",
+        "chapter": "09",
+        "title": "Make the pause easier",
+        "priority": "optional",
+        "targetSeconds": 45,
+        "concepts": [
+          "environment"
+        ],
+        "prerequisites": [
+          "practice"
+        ],
+        "script": "अगर environment हर second response नहीं मांग रहा, तो छोटा pause आसान लगता है। Later, एक distracting app first screen से हटाइए, या ऐसा alert silence कीजिए जिसकी जरूरत कम होती है। अपनी routine के लिए one small change choose कीजिए। जरूरी notifications रखिए। Quietest phone रखने का contest नहीं है। बस surroundings आपके already chosen decision को support करें। फिर notice कीजिए change helpful है या नहीं। नहीं है तो adjust कर दीजिए।"
+      },
+      {
+        "id": "extension-meaning",
+        "chapter": "10",
+        "title": "Sahi challenge dhoondho",
+        "priority": "optional",
+        "targetSeconds": 55,
+        "concepts": [
+          "attention-fit"
+        ],
+        "prerequisites": [
+          "boredom"
+        ],
+        "script": "Us restless feeling ko samajhne ka ek aur angle hai. Meaning aur attention model of boredom do useful sawaal poochta hai. Kya main is activity par attention laga paa raha hoon? Aur kya yeh activity mujhe worth doing lagti hai? Koi task bahut easy ho sakta hai, jahan attention ke paas pakadne ke liye kuch khaas nahi. Bahut difficult task mein bhi attention sustain karna mushkil ho sakta hai. Kabhi effort kaafi lagta hai, lekin purpose missing hota hai. Jaise ek badi spreadsheet bharna, bina jaane ki usse kaunsa decision hoga. Baad mein desk par ek chhota adjustment try kar sakte ho. Task overwhelming lage toh first step ko chhota aur clear karo. Purpose missing lage toh poochho, yeh work kiski kaunsi understanding improve karega? Yeh model ko apply karne ke practical suggestions hain, har boring task ko exciting banane ki guarantee nahi. Bas stimulation dhoondhne se pehle mismatch ko thoda pehchaano."
+      },
+      {
+        "id": "extension-return",
+        "chapter": "11",
+        "title": "Wapas aane ka ek raasta",
+        "priority": "optional",
+        "targetSeconds": 55,
+        "concepts": [
+          "return-cue"
+        ],
+        "prerequisites": [
+          "switching"
+        ],
+        "script": "Ab switching costs ko ek normal afternoon mein dekho. Tum ek problem solve kar rahe ho aur beech mein koi unrelated message aa jaata hai. Use padhkar reply kiya, phir original task par laut aaye. Interruption chhota tha, lekin apni jagah dobara dhoondhne mein thoda aur time laga. Task switching par research samjhati hai ki total cost visible interruption se badi kyun ho sakti hai. Baad mein desk par ek practical experiment try karo. Planned break se pehle next concrete step ka chhota note chhod do. Jaise in do figures ko compare karna hai, ya second paragraph finish karna hai. Note itna specific ho ki future wale tumhe turant samajh aaye ki kahan se shuru karna hai. Yeh tumhari routine ke liye suggestion hai, switching experiment ka direct result nahi. Ek baar try karke dekho ki returning easier lagti hai ya nahi. Attention samajhne ke liye poore din ko optimization project banana zaroori nahi."
+      }
+    ]
+  },
+  "compactRecaps": {
+    "en": {
+      "id": "compact-recap",
+      "chapter": "10",
+      "title": "Your one-minute takeaway",
+      "priority": "recap",
+      "targetSeconds": 12,
+      "concepts": [
+        "recap"
+      ],
+      "prerequisites": [
+        "practice"
+      ],
+      "script": "Your takeaway: switching has a cost. Notice the urge to fill a pause. Later, safely try one quiet minute before choosing your next input."
+    },
+    "hi": {
+      "id": "compact-recap",
+      "chapter": "10",
+      "title": "Your one-minute takeaway",
+      "priority": "recap",
+      "targetSeconds": 12,
+      "concepts": [
+        "recap"
+      ],
+      "prerequisites": [
+        "practice"
+      ],
+      "script": "याद रखिए: ध्यान बदलने की कीमत है। हर विराम भरने की इच्छा पहचानिए। बाद में सुरक्षित जगह, अगली जानकारी चुनने से पहले एक शांत मिनट आजमाइए।"
+    },
+    "hinglish": {
+      "id": "compact-recap",
+      "chapter": "10",
+      "title": "Your one-minute takeaway",
+      "priority": "recap",
+      "targetSeconds": 12,
+      "concepts": [
+        "recap"
+      ],
+      "prerequisites": [
+        "practice"
+      ],
+      "script": "Takeaway: switching की cost है। हर pause भरने का urge notice कीजिए। Later, safely एक quiet minute try कीजिए, फिर अपना next input choose कीजिए।"
+    }
+  },
+  "quizAudio": {
+    "en": [
+      {
+        "id": "q1",
+        "planVersion": 1,
+        "url": "/demo/en-quiz-q1.mp3",
+        "mimeType": "audio/mpeg",
+        "durationSeconds": 3.05,
+        "spokenTranscript": "What is one cost of repeatedly switching your attention?"
+      },
+      {
+        "id": "q2",
+        "planVersion": 1,
+        "url": "/demo/en-quiz-q2.mp3",
+        "mimeType": "audio/mpeg",
+        "durationSeconds": 3.75,
+        "spokenTranscript": "What small experiment can you try before unlocking your phone?"
+      }
+    ],
+    "hi": [
+      {
+        "id": "q1",
+        "planVersion": 1,
+        "url": "/demo/hi-quiz-q1.mp3",
+        "mimeType": "audio/mpeg",
+        "durationSeconds": 2.75,
+        "spokenTranscript": "बार बार ध्यान बदलने की एक कीमत क्या है?"
+      },
+      {
+        "id": "q2",
+        "planVersion": 1,
+        "url": "/demo/hi-quiz-q2.mp3",
+        "mimeType": "audio/mpeg",
+        "durationSeconds": 3.45,
+        "spokenTranscript": "फोन खोलने से पहले कौन सा छोटा प्रयोग कर सकते हैं?"
+      }
+    ],
+    "hinglish": [
+      {
+        "id": "q1",
+        "planVersion": 1,
+        "url": "/demo/hinglish-quiz-q1.mp3",
+        "mimeType": "audio/mpeg",
+        "durationSeconds": 3.25,
+        "spokenTranscript": "बार बार attention switch करने की एक cost क्या है?"
+      },
+      {
+        "id": "q2",
+        "planVersion": 1,
+        "url": "/demo/hinglish-quiz-q2.mp3",
+        "mimeType": "audio/mpeg",
+        "durationSeconds": 4.3,
+        "spokenTranscript": "Phone unlock करने से पहले कौन सा छोटा experiment try कर सकते हैं?"
+      }
+    ]
+  }
+}

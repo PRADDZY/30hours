@@ -1,0 +1,7 @@
+{
+  "id": "/", "name": "30hours", "short_name": "30hours",
+  "description": "Make the journey time for you. Audio learning that adapts to your arrival.",
+  "start_url": "/", "scope": "/", "display": "standalone",
+  "background_color": "#fff9f1", "theme_color": "#ed6b35",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
